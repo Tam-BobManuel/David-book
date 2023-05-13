@@ -1,0 +1,95 @@
+:root{
+    --bg-color: #13556B;
+    --red: #FF3030;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Montserrat', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6,span,p,li{
+    color: white;
+}
+.button {
+    display: inline-block;
+    background-color: var(--red);
+    padding: 8px 15px;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+div > img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+div{
+    overflow: hidden;
+    margin-top: 0%;
+}
+.mybox {
+    position: relative;
+    padding: 10px 20px;
+    
+    border-right: 3px solid #E2C13E;
+  }
+  
+  .mybox:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    width: 25%;
+    border-bottom: 3px solid #E2C13E;
+  }
+/* Default font size for all p elements */
+p {
+    font-size: 1rem;
+  }
+  
+  /* Larger font size for p elements on screens wider than 768px */
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Even larger font size for p elements on screens wider than 992px */
+  @media (min-width: 992px) {
+    p {
+      font-size: 1.4rem;
+    }
+  }
+  
+  /* Largest font size for p elements on screens wider than 1200px */
+  @media (min-width: 1200px) {
+    p {
+      font-size: 1.6rem;
+    }
+  }
+  
+  .toc-button {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .toc-button a,
+  .toc-button p {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .review-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .review-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
